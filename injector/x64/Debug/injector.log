@@ -1,0 +1,21 @@
+﻿  cPEFile.cpp
+  main.cpp
+C:\Users\david\Desktop\lok\injector\driver_interface.h(91,8): error C2664: 'int std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare(const _Elem *const ) noexcept const': cannot convert argument 1 from 'WCHAR [260]' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\david\Desktop\lok\injector\driver_interface.h(91,27): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4443,33): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::compare'
+C:\Users\david\Desktop\lok\injector\driver_interface.h(93,64): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\david\Desktop\lok\injector\main.cpp(95,33): warning C4244: '+=': conversion from 'ptrdiff_t' to 'unsigned long', possible loss of data
+C:\Users\david\Desktop\lok\injector\main.cpp(112,91): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+C:\Users\david\Desktop\lok\injector\main.cpp(112,91): warning C4302: 'type cast': truncation from 'HANDLE' to 'DWORD'
+C:\Users\david\Desktop\lok\injector\main.cpp(172,82): warning C4244: 'argument': conversion from 'ULONGLONG' to 'const unsigned long', possible loss of data
+C:\Users\david\Desktop\lok\injector\main.cpp(191,22): warning C4477: 'printf_s' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\david\Desktop\lok\injector\main.cpp(191,22): message : consider using '%zi' in the format string
+C:\Users\david\Desktop\lok\injector\main.cpp(191,22): warning C4477: 'printf_s' : format string '%p' requires an argument of type 'void *', but variadic argument 2 has type 'uintptr_t'
+C:\Users\david\Desktop\lok\injector\main.cpp(205,14): warning C4477: 'printf_s' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\david\Desktop\lok\injector\main.cpp(217,81): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'int'
+C:\Users\david\Desktop\lok\injector\main.cpp(217,81): warning C4302: 'type cast': truncation from 'HANDLE' to 'int'
+  Generating Code...
